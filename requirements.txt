@@ -1,0 +1,9 @@
+numpy==1.19.5
+pillow==8.4.0
+tensorflow==2.4.0
+matplotlib==3.5.3
+scipy==1.5.4
+h5py==2.10.0
+protobuf==3.19.6
+opencv-python==4.5.5.62
+tqdm==4.64.1
