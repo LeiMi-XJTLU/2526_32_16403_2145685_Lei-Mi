@@ -1,9 +1,26 @@
+# Core scientific computing
 numpy==1.19.5
-pillow==8.4.0
-tensorflow==2.4.0
-matplotlib==3.5.3
 scipy==1.5.4
+
+# Data handling & I/O
 h5py==2.10.0
+nibabel==3.2.1          # For reading NIfTI medical images
+
+# Deep learning framework
+tensorflow==2.4.0
 protobuf==3.19.6
+
+# Image processing & computer vision
+pillow==8.4.0
 opencv-python==4.5.5.62
-tqdm==4.64.1
+scikit-image==0.18.3    # For medical image preprocessing
+
+# Machine learning utilities
+scikit-learn==0.24.2    # For metrics like confusion matrix, AUC
+
+# Visualization
+matplotlib==3.5.3
+seaborn==0.11.2         # For plotting confusion matrix, distribution plots
+
+# Utilities
+tqdm==4.64.1            # Progress bars for training loops
